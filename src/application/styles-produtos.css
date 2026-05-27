@@ -1,0 +1,42 @@
+/* Estilo para o elemento raiz */
+.root{
+	-fx-background-color: dodgerblue;
+}
+
+/* Estilo para os rótulos */
+.label {
+	-fx-font-size: 14.0px; 
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+}
+
+/* Estilo para campos de texto */
+.text-field {
+	-fx-background-color: white;
+	-fx-border-color: lightgray;
+}
+
+/* Estilo para botões */
+.button {
+	-fx-background-color: linear-gradient(to bottom, black, dodgerblue);
+	-fx-text-fill: white;
+	-fx-font-size: 14.0px;
+	-fx-cursor: hand;
+}
+
+/* Estilo para botões ao passar o mouse */
+.button:hover {
+	-fx-background-color: linear-gradient(to bottom, lightskyblue, deepskyblue);
+}
+
+/* Estilo para visualização de tabelas */
+.table-view {
+	-fx-background-color: white;
+	-fx-border-color: lightgray;
+}
+
+/* Estilo para células de tabela */
+.table-cell	{
+	-fx-padding: 10px; 
+	-fx-border-color: lightgray;
+}

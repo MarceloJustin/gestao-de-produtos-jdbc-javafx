@@ -1,0 +1,43 @@
+# Compilados e binários
+/bin/
+/build/
+/target/
+/out/
+*.class
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários e backups
+*.tmp
+*.swp
+*.bak
+
+# Configurações locais do Eclipse
+.classpath
+.project
+.settings/
+
+# Configurações locais do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados pelo Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# Arquivos gerados pelo Gradle
+.gradle/
+build/
+
+# Resultados de testes e cache
+/test-output/
